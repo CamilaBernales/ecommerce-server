@@ -19,6 +19,8 @@ app.use(bodyParser.urlencoded({extended: false}));
 pool.connect();
 
 app.use("/api/post", require("./routes/post"));
+app.use("/api/product", require("./routes/product"));
+
 
 app.listen(4000, function () {
   console.log("Server is running.. on Port 4000");

@@ -31,4 +31,6 @@ router.get("/allpost", (req, res, next) => {
     }
   );
 });
+
+
 module.exports = router;

@@ -19,3 +19,4 @@ CREATE TABLE posts (
 
 
 INSERT INTO posts values(1,'post prueba','content prueba','imagen.png','categoria prueba');
+INSERT INTO products values(1,'title prueba','content prueba',233,true,'imagen.png',NOW());
